@@ -1,0 +1,64 @@
+# ===== macOS =====
+__MACOSX/
+.DS_Store
+._*
+
+# ===== Credenciais e ambiente =====
+.env
+.env.*
+!.env.example
+*.ini
+*.conf
+config.php
+config.local.php
+**/config_*.php
+**/db_*.php
+/includes/conexao.php
+/includes/mail.php
+/includes/e-mail.php
+/includes/logar.php
+html_email.php
+admin/enviar-lembrete.php
+js/mail.js
+
+# ===== Dependências =====
+/vendor/
+/composer/vendor/
+/node_modules/
+composer.phar
+composer.lock
+
+# ===== Bibliotecas de terceiros completas =====
+/slick-master/
+/js/json/ckeditor/samples/
+/js/json/ckeditor/plugins/scayt/
+/js/json/ckeditor/plugins/wsc/
+*.zip
+
+# ===== Arquivos de backup / temporários =====
+*.save
+*.bak
+*.old
+*.orig
+*~
+/teste.php
+/temp/
+/tmp/
+
+# ===== Logs e cache =====
+*.log
+/logs/
+/cache/
+
+# ===== Uploads (dados de usuário) =====
+/uploads/
+/media/uploads/
+/imagens/uploads/
+*.sql
+*.sqlite
+*.db
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.swp
